@@ -13,3 +13,11 @@ jobs:
       - IN: ecs-cluster
       - TASK: managed
         deployMethod: upgrade
+
+  - name: release-pipelines-demo
+    type: release
+    steps:
+      - IN: pipelines-demo-version
+        switch: off
+      - TASK: managed
+        bump: minor

@@ -6,7 +6,7 @@ resources:
       sourceName: "stephanielingwood/samplepipelinesdemo"
       isPull: false
     seed:
-      versionName: "latest"
+      versionName: "master.2"
 
   - name: docker-options
     type: dockerOptions

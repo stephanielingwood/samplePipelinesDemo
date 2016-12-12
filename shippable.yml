@@ -20,3 +20,4 @@ integrations:
         - versionName=$BRANCH.$BUILD_NUMBER
       on_success: always
       on_failure: never
+

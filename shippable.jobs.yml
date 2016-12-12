@@ -19,5 +19,7 @@ jobs:
     steps:
       - IN: pipelines-demo-version
         switch: off
+      - IN: deploy-pipelines-demo
+        switch: off
       - TASK: managed
         bump: minor
